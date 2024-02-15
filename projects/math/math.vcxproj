@@ -90,6 +90,7 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="include\common.hpp" />
     <ClInclude Include="include\vec2.hpp" />
     <ClInclude Include="include\vec3.hpp" />
   </ItemGroup>

@@ -15,6 +15,9 @@
     <ClInclude Include="include\vec3.hpp">
       <Filter>include</Filter>
     </ClInclude>
+    <ClInclude Include="include\common.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\math.cpp">
