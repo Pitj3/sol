@@ -7,7 +7,7 @@
 #include <string_view>
 #include <utility>
 
-namespace sol
+namespace sol::math
 {
     template <typename Type>
     class vec2
@@ -282,6 +282,6 @@ namespace sol
     typedef vec2<int32_t> ivec2;
     typedef vec2<float> fvec2;
     typedef vec2<double> dvec2;
-} // namespace sol
+} // namespace sol::math
 
 #endif // _SOL_VEC2_HPP__

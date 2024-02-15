@@ -1,7 +1,7 @@
 #ifndef _SOL_MATH_COMMON_HPP__
 #define _SOL_MATH_COMMON_HPP__
 
-namespace math
+namespace sol::math
 {
     template<typename Type>
     class constants
@@ -12,6 +12,6 @@ namespace math
         static inline constexpr Type degtorad = pi / (Type)180.0f;
         static inline constexpr Type radtodeg = (Type)1.0f / degtorad;
     };
-}
+} // namespace sol::math
 
 #endif // _SOL_MATH_COMMON_HPP__
