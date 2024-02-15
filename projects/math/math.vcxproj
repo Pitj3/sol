@@ -90,9 +90,12 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="include\common.hpp" />
-    <ClInclude Include="include\vec2.hpp" />
-    <ClInclude Include="include\vec3.hpp" />
+    <ClInclude Include="include\math\common.hpp" />
+    <ClInclude Include="include\math\config.hpp" />
+    <ClInclude Include="include\math\mat4.hpp" />
+    <ClInclude Include="include\math\vec2.hpp" />
+    <ClInclude Include="include\math\vec3.hpp" />
+    <ClInclude Include="include\math\vec4.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\math.cpp" />

@@ -9,13 +9,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\vec2.hpp">
+    <ClInclude Include="include\math\vec2.hpp">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="include\vec3.hpp">
+    <ClInclude Include="include\math\vec3.hpp">
       <Filter>include</Filter>
     </ClInclude>
-    <ClInclude Include="include\common.hpp">
+    <ClInclude Include="include\math\common.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\math\config.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\math\vec4.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\math\mat4.hpp">
       <Filter>include</Filter>
     </ClInclude>
   </ItemGroup>

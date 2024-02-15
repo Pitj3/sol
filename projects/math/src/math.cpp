@@ -1,3 +1,5 @@
-#include "vec2.hpp"
-#include "vec3.hpp"
-#include "common.hpp"
+#include "math/common.hpp"
+#include "math/vec2.hpp"
+#include "math/vec3.hpp"
+#include "math/vec4.hpp"
+#include "math/mat4.hpp"

@@ -149,7 +149,7 @@ namespace sol::math
 
         [[nodiscard]] inline constexpr Type length() const noexcept
         {
-            return const_cast<Type>(std::sqrt(const_cast<double>((x * x) + (y * y) + (z + z))));
+            return const_cast<Type>(std::sqrt(const_cast<double>((x * x) + (y * y) + (z * z))));
         }
 
         [[nodiscard]] static inline constexpr Type length(const vec3& v) noexcept
@@ -159,7 +159,7 @@ namespace sol::math
 
         [[nodiscard]] inline constexpr Type lengthsquared() const noexcept
         {
-            return (x * x) + (y * y) + (z + z);
+            return (x * x) + (y * y) + (z * z);
         }
 
         [[nodiscard]] static inline constexpr Type lengthsquared(const vec3& v) noexcept
