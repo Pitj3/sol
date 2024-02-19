@@ -3,6 +3,7 @@
 
 #include <algorithm>
 
+#include <math/config.hpp>
 #include <math/vec4.hpp>
 
 namespace sol::math

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\sol">
+      <UniqueIdentifier>{C609C131-32BF-3927-BBB3-33FE2768302B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\sol\core">
+      <UniqueIdentifier>{FEC53642-EABE-5594-13F1-3A19FF4835A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\sol\graphics">
+      <UniqueIdentifier>{E6CC55DD-D25B-DFA6-7B7A-F3A167E8EF4C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\sol\log">
+      <UniqueIdentifier>{B71C38DB-23A8-A59F-2CB9-289498C301A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core">
+      <UniqueIdentifier>{C55F2ECF-B12C-89DA-DA45-7782C671BE68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\graphics">
+      <UniqueIdentifier>{2DF282EC-1955-1291-C2DA-4A47AE1CDE13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\log">
+      <UniqueIdentifier>{9E1930A9-0AF9-AE44-1311-3A1B7F6F15A6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\sol\core\application.hpp">
+      <Filter>include\sol\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sol\core\filesystem.hpp">
+      <Filter>include\sol\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sol\core\result.hpp">
+      <Filter>include\sol\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sol\core\timer.hpp">
+      <Filter>include\sol\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sol\core\window.hpp">
+      <Filter>include\sol\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sol\graphics\buffer.hpp">
+      <Filter>include\sol\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sol\graphics\shader_module.hpp">
+      <Filter>include\sol\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sol\graphics\shader_program.hpp">
+      <Filter>include\sol\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sol\graphics\vertex_array.hpp">
+      <Filter>include\sol\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sol\log\logger.hpp">
+      <Filter>include\sol\log</Filter>
+    </ClInclude>
+    <ClInclude Include="include\sol\sol.hpp">
+      <Filter>include\sol</Filter>
+    </ClInclude>
+    <ClInclude Include="src\log\spdlog_logger.hpp">
+      <Filter>src\log</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\core\application.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\filesystem.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\window.cpp">
+      <Filter>src\core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\buffer.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\shader_module.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\shader_program.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics\vertex_array.cpp">
+      <Filter>src\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\log\logger.cpp">
+      <Filter>src\log</Filter>
+    </ClCompile>
+    <ClCompile Include="src\log\spdlog_logger.cpp">
+      <Filter>src\log</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sol.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -4,7 +4,7 @@
 namespace sol::math
 {
     template<typename Type>
-    class constants
+    class Constants
     {
         static inline constexpr Type pi = (Type)3.14159265358979323846f;
         static inline constexpr Type two_pi = (Type)6.28318530717958647692f;

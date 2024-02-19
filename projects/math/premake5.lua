@@ -31,7 +31,7 @@ project("math")
         })
 
     filter("system:Windows")
-        staticruntime("OFF")
+        staticruntime("Off")
 
         linkoptions({
             "/IGNORE:4006",
@@ -45,7 +45,7 @@ project("math")
         })
 
     filter("system:Linux")
-        staticruntime("OFF")
+        staticruntime("Off")
 
         defines({
             "SOL_PLATFORM_LINUX"
